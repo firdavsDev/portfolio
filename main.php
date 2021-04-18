@@ -16,7 +16,7 @@ if($email!=NULL){
     mail($to,$mavzu,$txt);
 }
 
-header('Location:index.html');
+header('Location:inndex.html');
 
 
 
