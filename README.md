@@ -1,4 +1,4 @@
 # protofil
 Sayt
 
-bu sayt kodlari firdavsga tegishki barchasi muyoriy hujjatlar asosida
+Bu sayt kodlari firdavsga tegishki barchasi muyoriy hujjatlar asosida
