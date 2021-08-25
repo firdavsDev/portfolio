@@ -362,16 +362,16 @@ section .title::after{
     width: 85%;
 }
 .skills-content .right .css::before{
-    width: 75%;
+    width: 80%;
 }
 .skills-content .right .js::before{
-    width: 50%;
+    width: 75%;
 }
 .skills-content .right .php::before{
     width: 85%;
 }
 .skills-content .right .mysql::before{
-    width: 65%;
+    width: 80%;
 }
 
 /* teams bulimi*/
@@ -568,6 +568,9 @@ footer span a:hover{
     .max-width{
         padding: 0 50px;
     }
+   .home{
+    background: url("banner2.jpg") no-repeat center;
+   }
 }
 @media (max-width: 947px){
     .menu-btn{
