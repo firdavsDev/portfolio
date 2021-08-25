@@ -269,6 +269,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
+    height: 288px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -395,6 +396,7 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    height: 255px;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
