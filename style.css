@@ -10,6 +10,10 @@
 html{
     scroll-behavior: smooth;
 }
+a:link {
+    text-decoration:none;
+    
+}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -269,7 +273,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    height: 288px;
+    height: 270px;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -360,24 +364,24 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 85%;
+    width: 95%;
 }
 .skills-content .right .css::before{
-    width: 80%;
-}
-.skills-content .right .js::before{
-    width: 75%;
-}
-.skills-content .right .php::before{
     width: 85%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .js::before{
     width: 80%;
+}
+.skills-content .right .php::before{
+    width: 90%;
+}
+.skills-content .right .mysql::before{
+    width: 85%;
 }
 
 /* teams bulimi*/
 .teams .title::after{
-    content: "Ustozlarim!";
+    content: "project!";
 }
 .teams .carousel .card{
     background: #222;
@@ -410,7 +414,7 @@ section .title::after{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 49%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
@@ -441,7 +445,7 @@ section .title::after{
 
 /* contact bulimi */
 .contact .title::after{
-    content: "bogʻlaning";
+    content: "Bogʻlaning";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -514,11 +518,11 @@ section .title::after{
     padding-top: 10px;
     resize: none;
 }
-.contact .right form .button{
+.contact .right .button{
     height: 47px;
     width: 170px;
 }
-.contact .right form .button button{
+.contact .right  .button button{
     width: 100%;
     height: 100%;
     border: 2px solid crimson;

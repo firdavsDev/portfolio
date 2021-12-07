@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Django", "Backend","Pythoness"],
+        strings: ["Django", "Backend","Rest API"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Django", "Backend", "Pythoness"],
+        strings: ["Django", "Backend", "Rest API"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -52,7 +52,7 @@ $(document).ready(function(){
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
-        autoplayTimeOut: 2000,
+        autoplayTimeOut: 1500,
         autoplayHoverPause: true,
         responsive: {
             0:{
